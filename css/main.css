@@ -11,6 +11,13 @@ body * {
     background-color: #03A9F5;
 }
 
+.bg-hero{
+    background-image: url(../images/bg-hero.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
 .container{
     display:inline-block;
     width: 100%;
