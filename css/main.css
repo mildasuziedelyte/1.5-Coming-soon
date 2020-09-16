@@ -30,8 +30,43 @@ body * {
         width: 600px;
         margin-left: calc((100% - 600px)/2);
         /* background-color: red; */
-
+        text-align: center;
     }
+
+        .hero-row > .logo{
+            display: inline-block;
+            width: 100%;
+            height:60px;
+            margin-bottom: 50px;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .title{
+            display: inline-block;
+            width:100%;
+            text-transform: uppercase;
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle{
+            display: inline-block;
+            width:100%;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 60px;
+        }
+
+        .clock{
+            margin-bottom: 60px;
+        }
+
+        .hero-row > form{
+            width: 90%;
+            margin: 0 5% 0 5%;
+            margin-bottom: 20px;
+        }
 
     .row{
         display: inline-block;
