@@ -29,7 +29,7 @@ body * {
         display: inline-block;
         width: 600px;
         margin-left: calc((100% - 600px)/2);
-        background-color: red;
+        /* background-color: red; */
 
     }
 
@@ -37,20 +37,20 @@ body * {
         display: inline-block;
         width: 1000px;
         margin-left: calc((100% - 1000px)/2);
-        background-color: red;
+        /* background-color: red; */
     }
 
         .left-column{
             display: inline-block;
             width: 50%;
-            background-color: aqua;
+            /* background-color: aqua; */
             float:left;
 
         }
         .right-column{
             display: inline-block;
             width: 40%;
-            background-color: aquamarine;
+            /* background-color: aquamarine; */
             float:right;
         }
 
