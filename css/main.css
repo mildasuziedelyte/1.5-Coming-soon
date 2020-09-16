@@ -29,7 +29,7 @@ body * {
         display: inline-block;
         width: 600px;
         margin-left: calc((100% - 600px)/2);
-        /* background-color: red; */
+        background-color: red;
 
     }
 
@@ -37,23 +37,23 @@ body * {
         display: inline-block;
         width: 1000px;
         margin-left: calc((100% - 1000px)/2);
-        /* background-color: red; */
+        background-color: red;
     }
 
         .left-column{
             display: inline-block;
             width: 50%;
-            /* background-color: aqua; */
+            background-color: aqua;
             float:left;
 
         }
         .right-column{
             display: inline-block;
             width: 40%;
-            /* background-color: aquamarine; */
+            background-color: aquamarine;
             float:right;
-
         }
+
         .socials{
             display: inline-block;
             width: 100%;
@@ -66,7 +66,52 @@ body * {
             width: 600px;
             margin-left: calc((100% - 600px)/2);
             /* background-color: yellow; */
-            
-
         }
 
+
+
+        @media (max-width:1100px){
+            .row{
+                width:800px;
+                margin-left: calc((100% - 800px)/2);
+            }
+        }
+
+        @media (max-width:900px){
+            .row{
+                width:600px;
+                margin-left: calc((100% - 600px)/2);
+            }
+            .left-column{
+                width: 100%;
+                margin-bottom: 60px;
+                }
+            .right-column{
+                width: 100%;
+    
+            }
+    
+        }
+
+        @media (max-width:700px){
+                .hero-row,                
+                .row,
+                .footer-texts{
+                    width: 400px;
+                    margin-left: calc((100% - 400px)/2);
+                }
+        }
+
+
+        @media (max-width:500px){
+            .container{
+                padding-left:20px;
+                padding-right: 20px;
+            }
+            .hero-row,            
+            .row,
+            .footer-texts{
+                width: 100%;
+                margin-left: 0;
+            }
+    }
