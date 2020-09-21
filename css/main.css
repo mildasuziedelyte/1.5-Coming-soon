@@ -58,7 +58,18 @@
                 margin-right: 5%;
                 margin-bottom: 20px;
 
+<<<<<<< HEAD
             }
+=======
+    .row{
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1000px)/2);
+        margin-right: calc((100% - 1000px)/2);
+
+        /* background-color: red; */
+    }
+>>>>>>> bf3318aad9b8cf153fa661237622b6486780f142
 
 
 
@@ -109,6 +120,7 @@
                 
             }
 
+<<<<<<< HEAD
             .socials > .fa {
                 /* padding: 20px; */
                 color: white;
@@ -125,7 +137,88 @@
                 background-color: white;
                 color: #03A9F5;
             }
+=======
+footer.container{
+    text-align: center;
+    padding-top: 0;
+    font-size:18px;
+}
 
+        .socials{
+            display: inline-block;
+            width: 100%;
+            border-bottom: 1px solid white;
+            /* background-color: beige; */
+            border-bottom: 1px solid #ffffff;
+            padding: 10px 0 10px 0;
+        }
+
+            .socials > .fa:hover{
+                background-color: white;
+                color: #03A9F5;
+            }
+
+            .socials > .fa{
+                color:white;
+                text-decoration:none;
+                /* padding:10px; */
+                /* background-color: red; */
+                border-radius: 50%;
+                line-height: 40px;
+                width: 40px;
+                height: 40px;
+                margin: 5px;
+             }
+
+
+        .footer-texts{
+            display: inline-block;
+            width: 600px;
+            /* margin-left: calc((100% - 600px)/2); */
+            /* margin-right: calc((100% - 600px)/2); */
+            /* background-color: yellow; */
+            color:#ffffff88;
+        }
+>>>>>>> bf3318aad9b8cf153fa661237622b6486780f142
+
+            .footer-texts > .logo{
+                margin-bottom: 30px;
+                margin-top: 30px;
+
+            }
+
+            .copyright{
+                display: inline-block;
+                /* width:100%; */
+            }
+
+                .copyright > .text{
+                    display: inline-block;
+                    float:left;
+                }
+
+                .copyright > .text.borders{
+                    display: inline-block;
+                    border-left: 1px solid white;
+                    border-right: 1px solid white;
+                    margin: 0px 10px 0 10px;
+                    padding: 0px 10px 0 10px;
+
+                    /* background-color: yellow; */
+                    
+                }
+
+          
+            .footer-texts > p {
+                display: inline-block;
+                width:100%;
+            }
+
+                .footer-texts a {
+                    color:white;
+                    text-decoration: none;
+
+                }           
 
             .footer-texts {
                 display: inline-block;
@@ -137,15 +230,31 @@
             }
     
 
+<<<<<<< HEAD
             .footer-texts > .logo {
                 height: 30px;
                 margin-bottom: 30px;
                 margin-top: 30px;
+=======
+        @media (max-width:1100px){
+            .row{
+                width:800px;
+                margin-left: calc((100% - 800px)/2);
+                margin-right: calc((100% - 800px)/2);
+>>>>>>> bf3318aad9b8cf153fa661237622b6486780f142
             }
 
+<<<<<<< HEAD
             .copyright {
                 display: inline-block;
                 
+=======
+        @media (max-width:900px){
+            .row{
+                width:600px;
+                margin-left: calc((100% - 600px)/2);
+                margin-right: calc((100% - 600px)/2);
+>>>>>>> bf3318aad9b8cf153fa661237622b6486780f142
             }
 
                 .copyright > .texts {
@@ -154,18 +263,36 @@
 
                 }
 
+<<<<<<< HEAD
                 .copyright > .texts.borders {
                     display: inline-block;
                     border-left: 1px solid white;
                     border-right: 1px solid white;
                     margin: 0 10px;
                     padding: 0 10px;
+=======
+        @media (max-width:700px){
+                .hero-row,                
+                .row,
+                .footer-texts{
+                    width: 400px;
+                    margin-left: calc((100% - 400px)/2);
+                    margin-right: calc((100% - 400px)/2);
+                }
+                .copyright>.text{
+                    width:100%;
+                }
+                .copyright > .text.borders{
+                    border:none;
+                    margin:0;
+>>>>>>> bf3318aad9b8cf153fa661237622b6486780f142
                 }
 
 
             .footer-texts > p {
                 display: inline-block;
                 width: 100%;
+<<<<<<< HEAD
 
             }
 
@@ -249,3 +376,9 @@
                 }
 
         /*  paskutinis dydis kuriam reikia pritaikyti yra width 320px */
+=======
+                margin-left: 0;
+                margin-right:0;
+            }
+        }
+>>>>>>> bf3318aad9b8cf153fa661237622b6486780f142
